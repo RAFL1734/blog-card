@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+.blogcard:hover {
+    box-shadow: 15px 15px #121212; 
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.header-link:hover {
+      color: #f4d04e; 
+      transition: color 0.2s ease-in-out;
+}
+
+.blogcard {
+    width: 380px;
+    height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow: 9px 9px 0px 0px #000000;
+}
+
+.blogcard-inner{
+    padding: 23px;
+}
+
+.blogcard-pic {
+    background-image: url(../assets/images/illustration-article.svg);
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 23px;
+}
+
+.blogcard-tag {
+    display: inline-block;
+    padding: 7px 13px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.blogcard-data {
+    margin-top: 16px;
+    font-size: 12px;
+}
+
+.blogcard-text {
+    margin: 27px 0;
+    color: hsl(0, 0%, 50%);
+}
+
+.blogcard-text-header{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 27px 0;
+}
+
+.blogcard-author {
+    display: flex;
+    align-items: center;
+}
+
+.blogcard-author-name {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+
